@@ -1,0 +1,179 @@
+/* Reset & Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2e3a59;
+    color: white;
+    padding: 20px 0;
+}
+
+marquee {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.btn-wrapper {
+    margin-top: 20px; /* Push button below the paragraph */
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: #2e3a59;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #f39c12;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('building.jpg') center/cover no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: #2e3a59;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+}
+
+.light-bg {
+    background-color: #e9ecef;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* Services List */
+ul {
+    list-style-type: square;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Projects */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid figure {
+    width: 300px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    padding: 10px;
+    background-color: #f4f4f4;
+    font-weight: 500;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #2e3a59;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
